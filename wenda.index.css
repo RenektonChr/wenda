@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  width: 100%;
+  height: 108px;
+  /*background-color: lightblue;*/
+}
+
+.head-top {
+  width: 1140px;
+  height: 64px;
+  /*background-color: yellow;*/
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  height: 64px;
+  float: left;
+  /*background-color: red;*/
+  line-height: 64px;
+  text-align: center;
+  background-image: url("./logo.jpg");
+  background-size:150px 64px;
+}
+
+#mnue1 {
+  width: 358px;
+  height: 64px;
+  float: left;
+  padding-left: 20px;
+  /*background-color: blue;*/
+  position: relative;
+  display: block;
+}
+
+.navigation {
+  width: 358px;
+  height: 64px;
+  list-style: none;
+  float: left;
+}
+
+.navigation li {
+  /*display: inline-block;*/
+  /*background-color: green;*/
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  float: left;
+  display: block;
+}
+
+.bd {
+  width: 147px;
+  height: 47px;
+  padding-top: 8px;
+  position: relative;
+}
+#btn1 {
+  position: absolute;
+  top: 15px;
+  left: 730px;
+  height: 31px;
+  width: 60px;
+}
+#input1 {
+  position: absolute;
+  top: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 30px;
+  color: #ccc;
+}
+
+#login{
+  width: 67px;
+  height: 36px;
+  background: white;
+  color: green;
+  position: absolute;
+  top: 15px;
+  left: 1065px;
+  border-radius: 5px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#signup{
+  width: 67px;
+  height: 36px;
+  background: green;
+  position: absolute;
+  color:white;
+  top: 15px;
+  left: 990px;
+  border-radius: 5px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#head-bottom{
+  width: 1140px;
+  height: 42px;
+  /*background-color: yellow;*/
+  margin: auto;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#head-bottom ul{
+  width: 1100px;
+  height: 42px;
+  /*background-color: yellow;*/
+}
+
+#head-bottom ul li{
+  width: 100px;
+  height: 42px;
+  color: #ccc;
+  float: left;
+  list-style: none;
+  text-align: center;
+  line-height: 42px;
+}
+
+#QA{
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+#QA ul{
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+#QA ul li{
+  width: 100px;
+  height: 50px;
+  float: left;
+  color: green;
+  list-style: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+.box{
+  width: 1140px;
+  height: 2352px;
+  margin: auto;
+  background: yellow;
+  position: relative;
+}
+
+.foot{
+  width: 100%;
+  height: 425px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+}
+
+.foot_box {
+  width: 1140px;
+  height: 425px;
+  margin: auto;
+  background: pink;
+  position: relative;
+}
+
+.foot_boxo{
+  width: 190px;
+  height: 224px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 50px;
+  border: 1px solid red;
+  float:left;
+}
+
+.spa {
+  width: 160px;
+  height: 20px;
+  border: 1px solid red;
+  display: inline-block;
+  padding-left: 20px;
+  }
+
+.foot_boxo ul{
+  width: 190px;
+  height: 200px;
+}
+
+.foot_boxo ul li{
+  width: 160px;
+  height: 20px;
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
+}
+
+.box-left{
+  width: 855px;
+  height: 2352px;
+  background-color: red;
+}
+
+.box-right {
+  width: 285px;
+  height: 1500px;
+  background-color: blue;
+  position: absolute;
+  top: 0px;
+  left: 855px;
+}
+
+.box-right-login{
+  width: 280px;
+  height: 400px;
+  background-color: pink;
+  border: 2px solid black;
+  position: relative;
+}
+
+.present{
+  float: right;
+  width: 130px;
+  height: 64px;
+  background-color: green;
+}
+
+#index_zc {
+  width:280px;
+  height: 300px;
+  background-color: lightblue;
+  position: absolute;
+  top: 64px;
+}
+
+#index_zc div{
+  width: 200px;
+  height: 40px;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+#index_zc div input {
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  width: 200px;
+  height: 40px;
+  color: #ccc;
+}
+
+.register {
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  line-height: 40px;
+}
+
+.lastp{
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
